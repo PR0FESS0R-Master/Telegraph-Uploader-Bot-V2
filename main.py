@@ -23,7 +23,7 @@ from telegraph import upload_file
 from database import Database
 
 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "https://t.me/The_Professor_100_BotZ")
 BOT_OWNER = int(os.environ["BOT_OWNER"])
 DATABASE_URL = os.environ["DATABASE_URL"]
 db = Database(DATABASE_URL, "FnTelegraphBot")
@@ -61,16 +61,16 @@ ABOUT_TEXT = """--**About Me**-- 😎
 
 🤖 **Name :** [Telegraph Uploader](https://telegram.me/{})
 
-👨‍💻 **Developer :** [Fayas](https://github.com/FayasNoushad)
+👨‍💻 **Developer :** [PR0FESS0R_MASTER](https://telegram.me/PR0FESS0R_MASTER_2)
 
-👨‍💻 **Editor :** [Muhammed](https://github.com/Mrk_yt)
+👨‍💻 **Editor :** [Muhammed](https://github.com/PR0FESS0R-Master)
 
 📢 **Channel :** [The_Professor_100_BotZ](https://telegram.me/The_Professor_100_BotZ)
 
 
 👥 **Group :** [Tech Group](https://telegram.me/The_Professor_100_BotZ_Group)
 
-🌐 **Source :** [👉 Click here](https://github.com/PR0FESS0R-Master/Telegraph-Uploader-Bot-V2)
+🌐 **Source :** [👉 Click here](https://telegram.me/PR0FESS0R_MASTER_2)
 
 📝 **Language :** [Python3](https://python.org)
 
@@ -244,7 +244,7 @@ async def telegraph_upload(bot, update):
                     InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
                 [  
-                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/FayasNoushad")
+                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://t.me/The_Professor_100_BotZ")
                 ],
                 [
                     InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50')
