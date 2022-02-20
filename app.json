@@ -1,6 +1,6 @@
 {
     "name": "Telegraph Bot",
-    "description": "A Id Bot by @MRK_YT",
+    "description": "A Id Bot The_Professor_100_BotZ ",
     "keywords": [
         "Telegram",
         "Id",
@@ -11,11 +11,11 @@
     "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
     "env": {
         "API_ID": {
-            "description": "Your APP ID From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "description": "Your APP ID From  @MT_MyTelegramOrg_Bot",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "description": "Your API Hash From  @MT_MyTelegramOrg_Bot",
             "value": ""
         },
         "BOT_TOKEN": {
@@ -31,7 +31,7 @@
             "value": ""
         },
         "DATABASE_URL": {
-            "description": "Database From https://youtu.be/gBLTsH-IXr0",
+            "description": "Database From ",
             "value": ""
         },
         "BOT_NAME": {
