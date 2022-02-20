@@ -24,7 +24,7 @@
         },
         "UPDATE_CHANNEL": {
             "description": "Channel User Name Without Type The_Professor_100_BotZ",
-            "value": "MT_Botz"
+            "value": "The_Professor_100_BotZ"
         },
         "BOT_OWNER": {
             "description": "Owner Id From @MT_Id_Bot",
